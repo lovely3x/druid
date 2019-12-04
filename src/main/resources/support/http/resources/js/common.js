@@ -26,14 +26,15 @@ druid.common = function () {
 		},
 		
 		buildFooter : function() {
-
-			var html ='<footer class="footer">'+
-					  '    		<div class="container">'+
-					  '<a href="https://render.alipay.com/p/s/taobaonpm_click/druid_banner_click" target="new"><img src="https://render.alipay.com/p/s/taobaonpm_click/druid_banner"></a><br/>' +
-				  	  '	powered by <a href="https://github.com/alibaba/" target="_blank">Alibaba</a> & sandzhang & <a href="http://melin.iteye.com/" target="_blank">melin</a> & <a href="https://github.com/shrekwang" target="_blank">shrek.wang</a>'+
-				  	  '			</div>'+
-					  ' </footer>';
-			$(document.body).append(html);
+			//
+			// var html ='<footer class="footer">'+
+			// 		  '    		<div class="container">'+
+			// 		  '<a href="https://render.alipay.com/p/s/taobaonpm_click/druid_banner_click" target="new"><img src="https://render.alipay.com/p/s/taobaonpm_click/druid_banner"></a><br/>' +
+			// 	  	  '	powered by <a href="https://github.com/alibaba/" target="_blank">Alibaba</a> & sandzhang & <a href="http://melin.iteye.com/" target="_blank">melin</a> & <a href="https://github.com/shrekwang" target="_blank">shrek.wang</a>'+
+			// 	  	  '			</div>'+
+			// 		  ' </footer>';
+			//
+			// $(document.body).append(html);
 		},
 		
 		ajaxRequestForReset : function() {
